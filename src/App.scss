@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.todo__app-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #9ca3af;
+  text-align: center;
+  margin-bottom: 10px;
+
+}

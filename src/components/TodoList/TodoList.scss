@@ -1,0 +1,19 @@
+.todo-task-wrapper {
+  display: flex;
+  flex: 70%;
+  width: 100%;
+  justify-content: center;
+}
+
+.todo-checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.todo__checkbox-title {
+  font-size: 14px;
+  color: grey;
+}
